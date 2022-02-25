@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.logo {
+  width: 100px;
+}
+header {
+  background-color: #212121;
+
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+#home {
+  color: #14F3C8;
+}
+.brand-title {
+  font-size: 1.5rem;
+  margin: .5rem;
+}
+
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+.navbar-links li a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  display: block;
+}
+
+.navbar-links li:hover {
+  background-color: #555;
+}
+
+.toggle-button {
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.hero-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hero-text-wrapper {
+  text-align: center;
+  width: 40rem;
+  max-width: 100%;
+  overflow: hidden;
+}
+.hi {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+}
+.myName {
+  font-weight: 500;
+  font-size: 6rem;
+   line-height: 6.5rem;
+}
+
+.job-title {
+  color: #14F3C8;
+  margin: 2.5rem;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+.info {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.2rem;
+} 
+
+/* small tablet styles*/
+@media (max-width: 500px){
+  .logo {
+    width: 80px;
+  }
+  .toggle-button {
+    display: flex;
+  }
+
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar-links li {
+    text-align: center;
+  }
+
+  .navbar-links li a {
+    padding: .5rem 1rem;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+}
+
+/* large tablets & laptop styles */
+@media (min-width: 960px){
+
+}
+
+/*  Desktop styles */
+@media (min-width: 1200px){
+
+}
+

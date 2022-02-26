@@ -45,6 +45,7 @@ header {
   color: white;
   padding: 2rem;
   display: block;
+  transition: all .3s ease-in;
 }
 a {
   color: white;
@@ -122,6 +123,9 @@ li {
   font-size: small;
 }
 
+.fa {
+  transition: all .3s ease-in;
+}
 .fa:hover {
   color: #14F3C8;
 }

@@ -10,7 +10,7 @@ body {
 }
 
 .logo {
-  width: 100px;
+  width: 80px;
 }
 header {
   background-color: #212121;
@@ -20,12 +20,13 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 2rem;
   color: white;
 }
 #home {
-  color: #14F3C8;
+  color: #00D1E0;
 }
-.brand-title {
+.logo-container {
   font-size: 1.5rem;
   margin: .5rem;
 }
@@ -42,12 +43,17 @@ header {
 .navbar-links li a {
   text-decoration: none;
   color: white;
-  padding: 1rem;
+  padding: 2rem;
   display: block;
 }
-
-.navbar-links li:hover {
-  background-color: #555;
+a {
+  color: white;
+}
+li {
+  list-style: none;
+}
+.navbar-links li a:hover {
+  color: #14F3C8;
 }
 
 .toggle-button {
@@ -80,27 +86,48 @@ header {
   overflow: hidden;
 }
 .hi {
-  font-weight: 500;
-  font-size: 1.6rem;
-  line-height: 1.9rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: .5rem;
 }
 .myName {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 6rem;
    line-height: 6.5rem;
+   margin-top: 1.5rem;
+   margin-bottom: 1.5rem;
 }
 
 .job-title {
   color: #14F3C8;
-  margin: 2.5rem;
-  font-weight: 400;
+  font-weight: 450;
   font-size: 1.8rem;
 }
 .info {
   text-align: center;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1rem;
 } 
+
+.icon-container {
+  padding: 1.2rem 0;
+}
+.icon-container ul{
+  display: flex; 
+  gap: 2rem;
+  margin-left: 11rem;
+}
+
+.connect {
+  font-size: small;
+}
+
+.fa:hover {
+  color: #14F3C8;
+}
+
+
+
 
 /* small tablet styles*/
 @media (max-width: 500px){

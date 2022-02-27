@@ -7,6 +7,7 @@ body {
   margin: 0;
   padding: 0;
   color: white;
+  background-color: #212121;
 }
 header {
   background-color: #212121;
@@ -44,9 +45,11 @@ a {
 .navbar-links ul {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .navbar-links li {
   list-style: none;
+  padding: 6px;
 }
 
 .navbar-links li a {
@@ -58,6 +61,8 @@ a {
 
 .navbar-links.active {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .toggle-button .bar {
   height: 3px;
@@ -103,6 +108,60 @@ a {
   font-weight: 600;
   font-size: 4rem;
 }
+
+/* Contact Me*/
+.contact {
+  height: 100%;
+  width: 100%;
+  background-color: #303030;
+}
+.contact-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-header h3 {
+  color: #14F3C8;
+}
+.contact-header p {
+  text-align: center;
+}
+.contact-flex {
+  display: flex;
+  flex-direction: column;
+}
+.contact-form {
+  justify-self: center;
+  align-self: center;
+}
+.contact-icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.contact-icons p {
+  font-size: 1rem;
+}
+.tooSide{
+  display: flex;
+}
+.bottom-contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.submitContact {
+  text-align: center;
+  display: flex;
+  width: 25%;
+  border-radius: 30px;
+  margin: 5px 0;
+}
+
+
+
+
 
 @media all and (min-width: 768px){
   /* NAV */
@@ -195,5 +254,15 @@ a {
     justify-content: center;
     gap: 2rem;
     margin-right: 3rem;
+  }
+  /*  Contacts Section*/
+  .contact-header p {
+    font-weight: 400;
+    font-size: 1.2em;
+  }
+  .contact-flex {
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
   }
 }

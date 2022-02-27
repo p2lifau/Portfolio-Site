@@ -15,8 +15,8 @@
 <body>
   <header>
    <nav class="navbar">
-     <div class="logo-container">
-       <a href="#">
+     <div class="logo-container" id="top">
+       <a href="#top">
          <img src="./img/p.png" alt="logop" class="logo">
        </a>
      </div>
@@ -51,11 +51,34 @@
       </div>
     </div>
          <div class="hero-img-wrapper">
-           <img src="./img/macbook-p.png" alt="macbook-p">
+           <img src="./img/macbook-p.png" alt="macbook-p" class="macbook-p">
          </div>
      </div>
    </div>
   </header>
+  <section class="contact">
+    <div class="contact-header">
+      <h3>Contact Me</h3>
+      <p>I am open to working on your project and architechting your ideas to life.</p>
+    </div>
+    <div class="contact-flex">
+      <div class="contact-icons">
+        <i class="fa fa-envelope-open fa-2x"></i>
+        <p>p2lifau@gmail.com</p>
+      </div>
+      <form action="" method="POST" class="contact-form">
+        <div class="tooSide">
+        <input type="text" placeholder="Name" name="name" required>
+        <input type="email" placeholder="Email" name="email" required>
+      </div>
+       <div class="bottom-contacts">
+       <input type="text" placeholder="Subject" name="subject" required>
+      <textarea name="message" id="" cols="30" rows="10" placeholder="Enter your message"></textarea>
+      <button type="submit" class="submitContact">Submit</button>
+    </div>
+      </form>
+    </div>
+  </section>
   <script src="./app.js"></script>
 </body>
 </html>

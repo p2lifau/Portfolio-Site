@@ -138,6 +138,7 @@ a {
 .contact-icons {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 1rem;
 }
 .contact-icons p {
@@ -157,6 +158,16 @@ a {
   width: 25%;
   border-radius: 30px;
   margin: 5px 0;
+}
+.footer-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-icons ul {
+  display: flex;
+  gap: 2rem;
 }
 
 
@@ -264,5 +275,13 @@ a {
     flex-direction: row;
     justify-content: center;
     gap: 3rem;
+  }
+
+  .footer-flex {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .logo {
+    margin: 10px auto;
   }
 }

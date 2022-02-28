@@ -226,7 +226,7 @@ textarea {
 .about-img {
   width: 20rem;
   height: auto;
-  margin-left: 2.5rem;
+  margin-left: 2.2rem;
 }
 
 .about {
@@ -259,7 +259,7 @@ textarea {
 
 .resume-button {
   background-color: #14F3C8;
-  padding: 1rem 3rem;
+  padding: 1rem 2rem;
 }
 
 .about-button a {
@@ -404,6 +404,10 @@ textarea {
    
   .about-img {
     width: 25rem;
+    margin-left: 2.6rem;
   }
   
+  .resume-button {
+    padding: 1rem 3rem;
+  }
 }

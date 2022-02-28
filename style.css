@@ -7,14 +7,13 @@ body {
   margin: 0;
   padding: 0;
   color: white;
-  background-color: #212121;
+  background-color: #262626!important;
+  
 }
 
 header {
-  background-color: #212121;
-  /* min-width: 100vw; */
+  height: 100%;
 }
-
 ul {
   list-style: none;
 }
@@ -32,6 +31,9 @@ a {
   align-items: flex-start;
   margin-bottom: 2rem;
   color: white;
+  background-color: rgba(33,33,33,.7);
+  margin: 0;
+  opacity: 1;
 }
 
 .navbar-links {
@@ -92,14 +94,23 @@ a {
   font-weight: 400;
   font-size: 1.6rem;
 }
+
+.info {
+  max-width: 90%;
+  text-align: center;
+  margin-left: 1rem;
+}
 .hero-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 .hero-text-wrapper {
   text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 .hi {
   font-weight: 400;
@@ -108,6 +119,10 @@ a {
 .myName {
   font-weight: 600;
   font-size: 4rem;
+}
+
+.container {
+  background-color: rgba(33, 33, 33, 1);
 }
 
 /* Contact Me*/
@@ -180,14 +195,14 @@ input {
   background-color: #262626;
   border: 1px solid white;
   margin: 10px;
-  padding: 2rem 2rem;
+  padding: 1rem;
  
 }
 textarea {
  background-color: #262626;
  border: 1px solid white;
  margin: 10px;
- padding: 2rem 2rem;
+ padding: 1rem;
  font-family: 'Montserrat', sans-serif;
  
 }
@@ -198,6 +213,7 @@ textarea {
   justify-content: center;
   align-items: center;
   padding-top: 50px;
+  background-color: rgba(33, 33, 33, 1);
 }
 .footer-icons ul {
   display: flex;
@@ -208,7 +224,7 @@ textarea {
 
 /* About Me section*/
 .about-img {
-  width: 25rem;
+  width: 20rem;
   height: auto;
   margin-left: 2.5rem;
 }
@@ -256,13 +272,7 @@ textarea {
 
 @media all and (min-width: 768px){
   /* NAV */
-  .sticky {
-      position: -webkit-sticky;
-      position: sticky;
-      z-index: 1;
-      top: 0;
-      bottom: 0;
-  }
+  
    .toggle-button {
      display: none;
    }
@@ -276,7 +286,7 @@ textarea {
     flex-direction: row;
     height: 100px;
     width: 100%;
-    height: 13%;
+    
   }
   .navbar-links.active {
     display: none;
@@ -301,9 +311,7 @@ textarea {
    
  /* HERO */
 
- .container {
-   position: relative;
- }
+ 
   .hero-wrapper {
     flex-direction: row;
     justify-content: space-around;
@@ -336,7 +344,6 @@ textarea {
   }
 
   .info {
-    text-align: center;
     font-weight: 400;
     font-size: 1rem;
   }
@@ -394,6 +401,9 @@ textarea {
     align-items: center;
     padding: 5rem 0;
   }
- 
+   
+  .about-img {
+    width: 25rem;
+  }
   
 }

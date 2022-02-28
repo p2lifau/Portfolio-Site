@@ -114,6 +114,7 @@ a {
 .contact {
   height: 100%;
   width: 100%;
+  padding: 5rem 0;
   background-color: #303030;
 }
 .contact-header {
@@ -133,6 +134,8 @@ a {
   flex-direction: column;
 }
 .contact-form {
+  display: flex;
+  flex-direction: column;
   justify-self: center;
   align-self: center;
 }
@@ -154,12 +157,23 @@ a {
 }
 
 .submitContact {
-  text-align: center;
   display: flex;
-  width: 25%;
-  border-radius: 30px;
+  width: 23%;
+  background-color: #14F3C8;
+  border: 0;
   margin: 5px 0;
+  padding: 1rem 5rem;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
 }
+
+.submitButton-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Footer */
 .footer-flex {
   display: flex;
   flex-direction: column;
@@ -170,6 +184,22 @@ a {
   display: flex;
   gap: 2rem;
 }
+ input {
+   background-color: #303030;
+   border: 1px solid white;
+   margin: 10px;
+   padding: 2rem 2rem;
+  
+ }
+textarea {
+  background-color: #303030;
+  border: 1px solid white;
+  margin: 10px;
+  padding: 2rem 2rem;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
 
 /* About Me section*/
 .about-img {
@@ -202,13 +232,12 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding: 1.2rem;
 }
 
 .resume-button {
   background-color: #14F3C8;
-  padding: 1.5rem;
-  border-radius: 20px;
+  padding: 1rem 3rem;
 }
 
 .about-button a {
@@ -300,6 +329,7 @@ a {
   }
   .fa:hover {
     color: #14F3C8;
+    cursor: pointer;
   }
   .icon-container {
     padding: 1.2rem 0;
@@ -319,7 +349,7 @@ a {
   .contact-flex {
     flex-direction: row;
     justify-content: center;
-    gap: 3rem;
+    gap: 8rem;
   }
 
   .footer-flex {
@@ -329,12 +359,22 @@ a {
   .logo {
     margin: 10px auto;
   }
+
+  input {
+    font-size: 1.2rem;
+  }
+
+  textarea {
+    font-size: 1.2rem;
+  }
   /* About Me Section*/
   .about-section {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    padding: 4rem 0;
+    padding: 5rem 0;
   }
+ 
+  
 }

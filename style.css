@@ -223,10 +223,15 @@ textarea {
 
 
 /* About Me section*/
+.about-img-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .about-img {
   width: 20rem;
   height: auto;
-  margin-left: 2.2rem;
+  /* margin-left: 2.2rem; */
 }
 
 .about {

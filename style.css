@@ -9,6 +9,7 @@ body {
   color: white;
   background-color: #212121;
 }
+
 header {
   background-color: #212121;
   /* min-width: 100vw; */
@@ -170,6 +171,50 @@ a {
   gap: 2rem;
 }
 
+/* About Me section*/
+.about-img {
+  width: 25rem;
+  height: auto;
+  margin-left: 2.5rem;
+}
+
+.about {
+  height: 100%;
+  width: 100%;
+  background-color: #303030;
+}
+
+.about h2 {
+  color: #14F3C8;
+}
+
+.about-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 1.6rem;
+  max-width: 32rem;
+  padding: 2rem;
+}
+
+.about-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.resume-button {
+  background-color: #14F3C8;
+  padding: 1.5rem;
+  border-radius: 20px;
+}
+
+.about-button a {
+  color: black;
+  text-decoration: none;
+}
 
 
 
@@ -283,5 +328,13 @@ a {
   }
   .logo {
     margin: 10px auto;
+  }
+  /* About Me Section*/
+  .about-section {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
   }
 }

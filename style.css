@@ -336,8 +336,8 @@ textarea {
   background-color: white;
   position: relative;
   color: black;
-  width: 30%;
-  height: 30%;
+  width: 60%;
+  height: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -525,21 +525,27 @@ textarea {
     gap: 3rem;
     margin-top: 3rem;
   }
-}
-     .view-buttons {
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      padding: 4rem 0;
-    }
+  .view-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4rem 0;
+  }
+  
+  .btn {
+    border: 0;
+    padding: 1rem 3rem;
+    background-color: #14F3C8;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    cursor: pointer;
+  }
+  .modal {
+    width: 30%;
+    height: 30%;
     
-    .btn {
-      border: 0;
-      padding: 1rem 3rem;
-      background-color: #14F3C8;
-      font-size: 1rem;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: lighter;
-      cursor: pointer;
-    }
+  }
+}
+    
 

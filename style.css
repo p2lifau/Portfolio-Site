@@ -351,7 +351,23 @@ textarea {
   font-weight: bold;
   cursor: pointer;
 }
+.view-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+}
 
+.btn {
+  border: 0;
+  padding: 1rem 3rem;
+  background-color: #14F3C8;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  cursor: pointer;
+}
 @media all and (min-width: 800px){
     
   .sticky {
@@ -509,7 +525,7 @@ textarea {
     margin-top: 3rem;
   }
 }
-.view-buttons {
+     .view-buttons {
       display: flex;
       justify-content: space-evenly;
       align-items: center;

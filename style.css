@@ -292,11 +292,15 @@ textarea {
   gap: 2rem;
 } 
 
-.projects h1 {
+.projects h1{
   text-align: center;
   color: #14F3C8;
 }
 
+.projects p {
+  text-align: center;
+  font-size: 1.1rem;
+}
 .box {
   border: .5px white solid;
 }

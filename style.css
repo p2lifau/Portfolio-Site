@@ -367,6 +367,7 @@ textarea {
   font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
   cursor: pointer;
+  color: black;
 }
 @media all and (min-width: 800px){
     

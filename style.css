@@ -225,6 +225,12 @@ textarea {
 
 
 /* About Me section*/
+.about-secetion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .about-img-flex {
   display: flex;
   justify-content: center;
@@ -328,7 +334,7 @@ textarea {
   transition: visibility 0s, opacity 0.5s;
 }
 
-.bg-active {
+.bckg-active {
   visibility: visible;
   opacity: 1;
 }
@@ -369,7 +375,16 @@ textarea {
   cursor: pointer;
   color: black;
 }
-@media all and (min-width: 800px){
+
+
+/* Tablets */
+@media all and (max-width: 830px) and (min-width: 767px) {
+  .about-text-container {
+    margin-left: 10rem;
+  }
+}
+/* laptop & desktop sizes */
+@media all and (min-width: 960px){
     
   .sticky {
     position: sticky;

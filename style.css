@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   color: white;
@@ -29,10 +29,10 @@ a {
   flex-direction: column;
   align-items: flex-start;
   color: white;
-  background-color: rgba(33,33,33,.7);
+  background-color: rgba(33, 33, 33, 0.7);
   opacity: 1;
-  width: 100%; 
-  height: 100%; 
+  width: 100%;
+  height: 100%;
 }
 
 .navbar-links {
@@ -41,7 +41,7 @@ a {
 }
 
 .navbar-links li a:hover {
-  color: #14F3C8;
+  color: #14f3c8;
 }
 
 .navbar-links ul {
@@ -56,8 +56,8 @@ a {
 
 .navbar-links li a {
   text-decoration: none;
-  padding: .5rem 1rem;
-  transition: all .3 ease-in;
+  padding: 0.5rem 1rem;
+  transition: all 0.3 ease-in;
   color: white;
 }
 
@@ -74,7 +74,7 @@ a {
 }
 .toggle-button {
   position: absolute;
-  top: .75rem;
+  top: 0.75rem;
   right: 1rem;
   display: flex;
   flex-direction: column;
@@ -83,13 +83,13 @@ a {
   height: 21px;
 }
 #home {
-  color: #00D1E0;
+  color: #00d1e0;
 }
 .icon-container {
   display: none;
 }
 .job-title {
-  color: #14F3C8;
+  color: #14f3c8;
   font-weight: 400;
   font-size: 1.6rem;
 }
@@ -138,7 +138,7 @@ a {
   align-items: center;
 }
 .contact-header h3 {
-  color: #14F3C8;
+  color: #14f3c8;
 }
 .contact-header p {
   text-align: center;
@@ -162,7 +162,7 @@ a {
 .contact-icons p {
   font-size: 1rem;
 }
-.tooSide{
+.tooSide {
   display: flex;
 }
 .bottom-contacts {
@@ -173,20 +173,19 @@ a {
 .submitContact {
   display: flex;
   width: 23%;
-  background-color: #14F3C8;
+  background-color: #14f3c8;
   border: 0;
   margin: 5px 0;
   padding: 1rem 5rem;
   justify-content: center;
   font-size: 1.2rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   cursor: pointer;
 }
 
-.submitContact:hover{
+.submitContact:hover {
   background-color: #14f3c6d7;
 }
-
 
 .submitButton-container {
   display: flex;
@@ -198,15 +197,13 @@ input {
   border: 1px solid white;
   margin: 10px;
   padding: 1rem;
- 
 }
 textarea {
- background-color: #262626;
- border: 1px solid white;
- margin: 10px;
- padding: 1rem;
- font-family: 'Montserrat', sans-serif;
- 
+  background-color: #262626;
+  border: 1px solid white;
+  margin: 10px;
+  padding: 1rem;
+  font-family: "Montserrat", sans-serif;
 }
 /* Footer */
 .footer-flex {
@@ -221,8 +218,6 @@ textarea {
   display: flex;
   gap: 2rem;
 }
-
-
 
 /* About Me section*/
 .about-secetion {
@@ -249,8 +244,12 @@ textarea {
   margin: 6rem auto;
 }
 
+.bulb {
+  font-size: 1.2rem;
+}
+
 .about h2 {
-  color: #14F3C8;
+  color: #14f3c8;
 }
 
 .about-text-container {
@@ -271,8 +270,15 @@ textarea {
   padding: 1.2rem;
 }
 
+.main-about-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .resume-button {
-  background-color: #14F3C8;
+  background-color: #14f3c8;
   padding: 1rem 1rem;
 }
 
@@ -296,11 +302,11 @@ textarea {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-} 
+}
 
-.projects h1{
+.projects h1 {
   text-align: center;
-  color: #14F3C8;
+  color: #14f3c8;
 }
 
 .projects p {
@@ -308,7 +314,7 @@ textarea {
   font-size: 1.1rem;
 }
 .box {
-  border: .5px white solid;
+  border: 0.5px white solid;
 }
 .box-img {
   height: 24rem;
@@ -368,14 +374,13 @@ textarea {
 .btn {
   border: 0;
   padding: 1rem 2rem;
-  background-color: #14F3C8;
+  background-color: #14f3c8;
   font-size: 1rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: lighter;
   cursor: pointer;
   color: black;
 }
-
 
 /* Tablets */
 @media all and (max-width: 830px) and (min-width: 767px) {
@@ -384,33 +389,31 @@ textarea {
   }
 }
 /* laptop & desktop sizes */
-@media all and (min-width: 960px){
-    
+@media all and (min-width: 960px) {
   .sticky {
     position: sticky;
     top: 0;
     z-index: 1;
   }
-  
-   .toggle-button {
-     display: none;
-   }
-   .toggle-button .bar {
-     display: none;
-   }
-   
-   .navbar {
+
+  .toggle-button {
+    display: none;
+  }
+  .toggle-button .bar {
+    display: none;
+  }
+
+  .navbar {
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
     height: 100px;
     width: 100%;
-    
   }
   .navbar-links.active {
     display: none;
   }
- 
+
   .navbar-links {
     display: block;
   }
@@ -431,10 +434,9 @@ textarea {
   .navbar-links li a {
     padding: 2rem;
   }
-   
- /* HERO */
 
- 
+  /* HERO */
+
   .hero-wrapper {
     flex-direction: row;
     justify-content: space-around;
@@ -450,15 +452,15 @@ textarea {
   .hi {
     font-weight: 400;
     font-size: 1.2rem;
-    line-height: .5rem;
+    line-height: 0.5rem;
   }
 
   .myName {
     font-weight: 600;
     font-size: 6rem;
-   line-height: 6.5rem;
-   margin-top: 1.5rem;
-   margin-bottom: 1.5rem;
+    line-height: 6.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 
   .job-title {
@@ -474,16 +476,16 @@ textarea {
     font-size: small;
   }
   .fa {
-    transition: all .3s ease-in;
+    transition: all 0.3s ease-in;
   }
   .fa:hover {
-    color: #14F3C8;
+    color: #14f3c8;
     cursor: pointer;
   }
   .icon-container {
     padding: 1.2rem 0;
     display: block;
- }
+  }
   .icon-container ul {
     display: flex;
     justify-content: center;
@@ -524,12 +526,12 @@ textarea {
     align-items: center;
     padding: 5rem 0;
   }
-   
+
   .about-img {
     width: 25rem;
     margin-left: 2.6rem;
   }
-  
+
   .resume-button {
     padding: 1rem 3rem;
   }
@@ -546,21 +548,18 @@ textarea {
     align-items: center;
     padding: 4rem 0;
   }
-  
+
   .btn {
     border: 0;
     padding: 1rem 3rem;
-    background-color: #14F3C8;
+    background-color: #14f3c8;
     font-size: 1rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: lighter;
     cursor: pointer;
   }
   .modal {
     width: 30%;
     height: 30%;
-    
   }
 }
-    
-

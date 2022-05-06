@@ -1,5 +1,11 @@
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+}
+section {
+  text-align: center;
+  margin-top: 2.5%;
 }
 
 body {
@@ -8,16 +14,6 @@ body {
   padding: 0;
   color: white;
   background-color: #262626;
-}
-.projects-sect {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
-}
-.float-img {
-  width: 600px;
 }
 header {
   height: 100%;
@@ -28,6 +24,7 @@ ul {
 
 a {
   color: white;
+  text-decoration: none;
 }
 .logo {
   width: 90px;
@@ -300,36 +297,52 @@ textarea {
 }
 
 /* Projects / Portfolio section*/
-.projects {
-  height: 100%;
-  width: 100%;
-  margin: 6rem auto;
+.proj-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.box-flex-container {
+
+.git-btn {
+  color: black;
+}
+.projects-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
 }
-
-.projects h1 {
-  text-align: center;
+.proj-heading h1 {
   color: #14f3c8;
 }
 
-.projects p {
-  text-align: center;
-  font-size: 1.1rem;
-}
-.box {
-  border: 0.5px white solid;
-}
-.box-img {
-  height: 24rem;
-  width: 20rem;
+.proj-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
 }
 
+.proj-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.float-pic {
+  width: 22rem;
+}
+
+.float-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .btn:hover {
   background-color: #14f3c6d7;
 }
@@ -395,6 +408,10 @@ textarea {
 @media all and (max-width: 830px) and (min-width: 767px) {
   .about-text-container {
     margin-left: 10rem;
+  }
+
+  .float-pic {
+    width: 44rem;
   }
 }
 /* laptop & desktop sizes */
@@ -572,5 +589,39 @@ textarea {
   .modal {
     width: 30%;
     height: 30%;
+  }
+
+  .projects-section {
+    flex-direction: row;
+  }
+
+  .all-proj {
+    display: flex;
+    flex-direction: column;
+  }
+  .proj-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .proj-1 p {
+    max-width: 30rem;
+    line-height: 2rem;
+  }
+
+  .float-pic {
+    width: 50rem;
+  }
+
+  .proj-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .proj-2 p {
+    max-width: 30rem;
+    line-height: 2rem;
   }
 }

@@ -29,3 +29,5 @@ modalClose.addEventListener('click', () => {
   modalBg.classList.remove('bckg-active');
 })
 
+
+

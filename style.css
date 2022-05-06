@@ -9,7 +9,9 @@ body {
   color: white;
   background-color: #262626;
 }
-
+.float-pic {
+  width: 800px;
+}
 header {
   height: 100%;
 }
@@ -513,10 +515,12 @@ textarea {
 
   input {
     font-size: 1.2rem;
+    color: white;
   }
 
   textarea {
     font-size: 1.2rem;
+    color: white;
   }
   /* About Me Section*/
   .about-section {

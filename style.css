@@ -9,8 +9,15 @@ body {
   color: white;
   background-color: #262626;
 }
-.float-pic {
-  width: 800px;
+.projects-sect {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.float-img {
+  width: 600px;
 }
 header {
   height: 100%;

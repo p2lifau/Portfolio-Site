@@ -266,6 +266,7 @@ textarea {
   line-height: 1.6rem;
   max-width: 32rem;
   padding: 2rem;
+  text-align: left;
 }
 
 .about-button {
@@ -279,7 +280,7 @@ textarea {
 .main-about-text {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
 }
 

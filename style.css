@@ -338,6 +338,10 @@ textarea {
   width: 22rem;
 }
 
+.float-pic:hover {
+  border: 2px solid black;
+}
+
 .float-text {
   display: flex;
   flex-direction: column;

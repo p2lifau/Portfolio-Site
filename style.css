@@ -513,6 +513,14 @@ textarea {
     color: #14f3c8;
     cursor: pointer;
   }
+
+  .fab {
+    transition: all 0.3s ease-in;
+  }
+  .fab:hover {
+    color: #14f3c8;
+    cursor: pointer;
+  }
   .icon-container {
     padding: 1.2rem 0;
     display: block;
